@@ -1,0 +1,12 @@
+name: PayDay
+version: 2.0.0
+main: de.brightstorm.payday
+softdepend: [Vault, Essentials]
+author: Hubarz
+commands:
+   payday:
+      permission: payday.admincommand
+   paycheck:
+      description: Check time left
+   paydebug:
+      permission: payday.debug
