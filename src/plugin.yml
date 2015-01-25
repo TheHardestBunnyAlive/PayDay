@@ -2,7 +2,7 @@ name: PayDay
 version: 2.0.0
 main: de.brightstorm.payday
 softdepend: [Vault, Essentials]
-author: Hubarz Dutchy1001 and rlf
+author: Hubarz dutchy1001 and rlf
 commands:
    payday:
       permission: payday.admincommand
