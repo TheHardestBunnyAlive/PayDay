@@ -1,12 +1,12 @@
-package de.brightstorm.rewarders;
+package uk.debosoft.rewarders;
 
 import net.milkbowl.vault.economy.Economy;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.RegisteredServiceProvider;
 
-import de.brightstorm.PDPlayer;
-import de.brightstorm.Rewarder;
+import uk.debosoft.PDPlayer;
+import uk.debosoft.Rewarder;
 
 public class MoneyRewarder extends Rewarder {
 	private Economy economy;

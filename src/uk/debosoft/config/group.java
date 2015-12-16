@@ -1,4 +1,4 @@
-package de.brightstorm.config;
+package uk.debosoft.config;
 
 public class group implements Comparable<group> {
 	private String name;

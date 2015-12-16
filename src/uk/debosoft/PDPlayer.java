@@ -1,11 +1,12 @@
-package de.brightstorm;
+package uk.debosoft;
 
 import org.bukkit.entity.Player;
+import uk.debosoft.config.group;
 
 public class PDPlayer {
 	private Player p;
 	private boolean ignore = false;
-	private de.brightstorm.config.group Group;
+	private group Group;
 	
 	public PDPlayer(Player p) {
 		super();
@@ -24,16 +25,16 @@ public class PDPlayer {
 		this.ignore = ignore;
 	}
 	
-	public de.brightstorm.config.group getGroup() {
+	public group getGroup() {
 		return Group;
 	}
-	public void setGroup(de.brightstorm.config.group group) {
+	public void setGroup(group group) {
 		Group = group;
 	}
 	
 	public void findGroup() {
 		this.ignore = true;
-		for (de.brightstorm.config.group g : payday.conf.getGroups()) {
+		for (group g : payday.conf.getGroups()) {
 			if (this.p.hasPermission("payday." + g.getName())) {
 				this.Group = g;
 				this.ignore = false;

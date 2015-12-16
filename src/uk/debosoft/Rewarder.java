@@ -1,10 +1,10 @@
-package de.brightstorm;
+package uk.debosoft;
 
 import org.apache.commons.lang.StringUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
-import de.brightstorm.rewarders.EssentialsInterface;
+import uk.debosoft.rewarders.EssentialsInterface;
 
 public abstract class Rewarder implements Runnable {
 	private EssentialsInterface ei;

@@ -1,4 +1,4 @@
-package de.brightstorm.rewarders;
+package uk.debosoft.rewarders;
 
 import com.earth2me.essentials.Essentials;
 import com.earth2me.essentials.User;

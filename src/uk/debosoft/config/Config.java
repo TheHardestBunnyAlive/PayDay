@@ -1,4 +1,4 @@
-package de.brightstorm.config;
+package uk.debosoft.config;
 
 import java.util.ArrayList;
 import java.util.Collections;

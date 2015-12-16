@@ -1,8 +1,6 @@
-package de.brightstorm;
+package uk.debosoft;
 
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.logging.Logger;
 
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
@@ -12,14 +10,14 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import de.brightstorm.CommandHandler.AdminCommandHandler;
-import de.brightstorm.CommandHandler.PlayerCommandHandler;
-import de.brightstorm.config.Config;
-import de.brightstorm.config.ConfigReader;
-import de.brightstorm.config.UserDB;
-import de.brightstorm.config.group;
-import de.brightstorm.rewarders.ItemRewarder;
-import de.brightstorm.rewarders.MoneyRewarder;
+import uk.debosoft.CommandHandler.AdminCommandHandler;
+import uk.debosoft.CommandHandler.PlayerCommandHandler;
+import uk.debosoft.config.Config;
+import uk.debosoft.config.ConfigReader;
+import uk.debosoft.config.UserDB;
+import uk.debosoft.config.group;
+import uk.debosoft.rewarders.ItemRewarder;
+import uk.debosoft.rewarders.MoneyRewarder;
 
 @SuppressWarnings("unused")
 public class payday extends JavaPlugin {

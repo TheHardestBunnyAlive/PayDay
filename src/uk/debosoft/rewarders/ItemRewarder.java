@@ -1,11 +1,11 @@
-package de.brightstorm.rewarders;
+package uk.debosoft.rewarders;
 
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
 
-import de.brightstorm.PDPlayer;
-import de.brightstorm.Rewarder;
-import de.brightstorm.payday;
+import uk.debosoft.PDPlayer;
+import uk.debosoft.Rewarder;
+import uk.debosoft.payday;
 
 public class ItemRewarder extends Rewarder {
 

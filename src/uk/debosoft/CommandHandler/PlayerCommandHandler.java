@@ -1,4 +1,4 @@
-package de.brightstorm.CommandHandler;
+package uk.debosoft.CommandHandler;
 
 import org.apache.commons.lang.StringUtils;
 import org.bukkit.ChatColor;
@@ -7,8 +7,8 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import de.brightstorm.PDPlayer;
-import de.brightstorm.payday;
+import uk.debosoft.PDPlayer;
+import uk.debosoft.payday;
 
 public class PlayerCommandHandler implements CommandExecutor {
 	public PlayerCommandHandler() {

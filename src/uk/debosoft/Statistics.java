@@ -1,4 +1,4 @@
-package de.brightstorm;
+package uk.debosoft;
 
 import java.io.IOException;
 

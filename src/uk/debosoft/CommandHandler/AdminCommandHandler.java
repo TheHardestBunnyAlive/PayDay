@@ -1,11 +1,11 @@
-package de.brightstorm.CommandHandler;
+package uk.debosoft.CommandHandler;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
-import de.brightstorm.payday;
+import uk.debosoft.payday;
 
 public class AdminCommandHandler implements CommandExecutor {
 

@@ -1,4 +1,4 @@
-package de.brightstorm.config;
+package uk.debosoft.config;
 
 import java.io.File;
 import java.io.FileReader;

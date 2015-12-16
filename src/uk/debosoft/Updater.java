@@ -1,5 +1,5 @@
 //Credits to h31ix
-package de.brightstorm;
+package uk.debosoft;
 
 /*
  * Updater for Bukkit.
