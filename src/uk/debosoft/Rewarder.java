@@ -17,7 +17,7 @@ public abstract class Rewarder implements Runnable {
 	
 	public void run() {
 		try {
-			for (Player p : Bukkit.getServer().getOnlinePlayers()) {
+			for (Player p : Bukkit.getOnlinePlayers()) {
 				PDPlayer pp = new PDPlayer(p);
 				pp.findGroup();
 				if(!pp.isIgnore()) {
