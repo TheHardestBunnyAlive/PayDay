@@ -5,11 +5,7 @@
 
 ## What were you expecting to happen? What happened instead?  
 
-## What version of the plugin are you using? *Type /version &lt;Plugin Name&gt;*  
-
-## What Spigot version are you using? *Type /version*  
-
-## What plugins ae you using? *Type /plugins*  
+## What version of the plugin and depedencies are you using? *Type /usb version*
 
 ## Do you have an error log? Use [pastebin.com](http://pastebin.com). *If you're not sure, upload your whole server log*  
 
